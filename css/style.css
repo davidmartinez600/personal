@@ -7861,7 +7861,7 @@ a.read_more i {
 #top-bar nav,
 #top-bar #mp-col {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: center;
 }
 #top-bar #logo,
 #top-bar #mp-col {
@@ -8655,7 +8655,7 @@ img {
     }
     
     #top-bar #mp-col {
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -9437,8 +9437,10 @@ img {
 	/* a.btn-download {
 		display:none;
     } */
-    .txtDown{
-		display:none;
+
+    .de_dark a.btn-download {
+        padding: 10px 5px 10px 5px;
+        font-size:13px;
     }
 }
 
