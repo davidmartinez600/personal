@@ -9405,6 +9405,14 @@ img {
 	design for 320px
 	/* -------------------------------------------------- */
 @media only screen and (max-width: 480px) {
+    #top-bar #mp-col .txtDown {
+        display: none;
+    }
+    
+    #top-bar #mp-col .btn-download {
+        padding: 10px 0px 10px 10px;
+    }
+
     .pf_full_width .item {
         float: left;
         width: 100% !important;
